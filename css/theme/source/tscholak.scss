@@ -121,11 +121,14 @@ $selectionBackgroundColor: rgba(255, 255, 255, 1);
   font-family: $mainFont;
 }
 
+.reveal .katex {
+  font-size: 1.2em !important;
+}
 .reveal .katex.inline:not(first) {
   margin-left: 0em;
 }
 .reveal .katex.display {
   display: block;
-  margin: 1em;
+  margin: 1em 0;
   text-align: center;
 }
