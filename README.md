@@ -1,35 +1,13 @@
-# My `reveal.js` Presentation Template
+# Bayesian Generative Adversarial Networks
 
-This is based on [reveal.js](https://github.com/hakimel/reveal.js), a framework for creating presentations using HTML, CSS, and Markdown.
+These are the sources for the talk I gave at the [Toronto Probabilistic Programming Meetup](https://www.meetup.com/Toronto-Probabilistic-Programming-Meetup/events/236861513/). They are released under the CC BY-NC 4.0 license, see below.
 
-## Steps to Make Use of This
+Read [here](https://github.com/tscholak/presentation_template) about how you can build and view the slides.
 
-### Clone the repository:
-```
-$ git clone --recursive https://github.com/tscholak/presentation_template.git new_presentation
-```
+I also converted the slides to pdf. Head [here](https://github.com/suhailshergill/ProPL-meetup/) and for a download.
 
-#### Set up npm:
-```
-$ cd new_presentation
-$ npm init
-```
-npm will ask a couple of questions. If unsure, just go with the standard answers.
+## License
+[![CC-BY-NC](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)](http://creativecommons.org/licenses/by-nc/4.0/)
 
-#### Install grunt and its components:
-```
-$ npm install grunt grunt-contrib-qunit grunt-contrib-jshint grunt-contrib-cssmin \
-	grunt-contrib-uglify grunt-contrib-watch grunt-sass grunt-contrib-connect \
-	grunt-autoprefixer grunt-zip --save-dev
-```
-
-#### Build `reveal.js` and the custom `css` files from their sources:
-```
-$ grunt --force
-```
-
-#### Preview the presentation in a browser:
-```
-$ grunt serve
-```
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/.
 
